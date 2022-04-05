@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?><definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:signavio="http://www.signavio.com" xmlns:vp="http://www.visual-paradigm.com/bpmn/vpspecificcontent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="15.10.3" expressionLanguage="http://www.w3.org/TR/XPath" id="Definition" name="Business Process Diagram1" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+   <dataStore capacity="0" id="sid-ffd4008d-8357-46d3-9ac1-d6ba63a79ca8" isUnlimited="false" name="EXPERT'S LABEL STORE"/>
+   <dataStore capacity="0" id="sid-49950ded-6756-4237-aed8-71108adea536" isUnlimited="false" name="DATA STORAGE"/>
+   <dataStore capacity="0" id="sid-d28c180e-302d-4113-a23a-6a38bde0d067" isUnlimited="false" name="TRAINING/TEST/ &#10; VALIDATION SET STORE"/>
+   <collaboration id="sid-0d74da34-eabe-4054-9a33-927d3aceebd0">
+      <extensionElements>
+         <signavio:signavioDiagramMetaData metaKey="prozessreifegrad" metaValue=""/>
+         <signavio:signavioDiagramMetaData metaKey="iso9000ff" metaValue=""/>
+         <signavio:signavioDiagramMetaData metaKey="processgoal" metaValue=""/>
+         <signavio:signavioDiagramMetaData metaKey="meta-processowner" metaValue=""/>
+         <signavio:signavioDiagramMetaData metaKey="revisionid" metaValue="6a05bbee575d43e0aec29b6908f8717a"/>
+      </extensionElements>
+      <participant id="BP44" name="Generate Learning Session Set" processRef="process-BP44">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#00CCFF"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </participant>
+   </collaboration>
+   <process id="process-BP44" isClosed="false" isExecutable="false" name="Generate Learning Session Set" processType="None">
+      <extensionElements>
+         <vp:Extensions>
+            <vp:ModelExtension>
+               <vp:VpId Value="zG2Dvb6GAqAC0Ax0"/>
+               <vp:ModelType Value="BPPool"/>
+               <vp:ModelProperties>
+                  <vp:StringProperty Name="pmCreateDateTime" Value="1639566128691"/>
+                  <vp:StringProperty Name="pmLastModified" Value="1639664806558"/>
+                  <vp:StringProperty Name="userID" Value="BP44"/>
+                  <vp:IntegerProperty Name="userIDLastNumericValue" Value="56"/>
+                  <vp:IntegerProperty Name="qualityScore" Value="97"/>
+                  <vp:StringProperty Name="qualityReason" Value="2&#9;2"/>
+                                    						
+               
+               </vp:ModelProperties>
+                              					
+            
+            </vp:ModelExtension>
+                        				
+         
+         </vp:Extensions>
+      </extensionElements>
+      <laneSet id="sid-749cef63-ee9c-4bf8-a6ad-22a8751433e9">
+         <lane id="sid-494fae84-4a9e-48d2-8928-0f3ca08c0e2b" name="&#10;">
+            <extensionElements>
+               <signavio:signavioMetaData metaKey="bgcolor" metaValue=""/>
+               <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            </extensionElements>
+            <flowNodeRef>BP44_BP28</flowNodeRef>
+            <flowNodeRef>BP44_BP20</flowNodeRef>
+            <flowNodeRef>BP44_BP16</flowNodeRef>
+            <flowNodeRef>BP44_BP14</flowNodeRef>
+            <flowNodeRef>BP44_BP09</flowNodeRef>
+            <flowNodeRef>BP44_BP11</flowNodeRef>
+            <flowNodeRef>BP44_BP18</flowNodeRef>
+            <flowNodeRef>sid-E84B8115-FA78-4F27-AC73-4F837DF99C9A</flowNodeRef>
+            <flowNodeRef>sid-92C4410E-9BF0-40C4-8065-849295AE0B98</flowNodeRef>
+            <flowNodeRef>BP44_BP01</flowNodeRef>
+            <flowNodeRef>sid-18A102C0-831C-47CE-BBD9-328995F0D1E4</flowNodeRef>
+            <flowNodeRef>sid-AEA77758-BAAE-4B92-AD97-436C6CA642E3</flowNodeRef>
+            <flowNodeRef>sid-C9784870-E1A6-4A81-9BC1-51AECB1E8FB2</flowNodeRef>
+            <flowNodeRef>sid-0A390F83-ECAD-466C-B968-D3B6609A02AD</flowNodeRef>
+            <flowNodeRef>sid-E4243CE8-8974-46D3-9F80-E779BBFE9518</flowNodeRef>
+            <flowNodeRef>sid-C90FC7CD-AC65-496C-B955-437589576264</flowNodeRef>
+            <flowNodeRef>sid-B87960FA-DF97-485A-B73F-F28D7B36B1B0</flowNodeRef>
+            <flowNodeRef>sid-93CD68FD-EFAF-498E-BC10-0D9383976B25</flowNodeRef>
+            <flowNodeRef>sid-7662B1AF-55A8-4437-A61C-14CBDC728135</flowNodeRef>
+         </lane>
+      </laneSet>
+      <serviceTask completionQuantity="1" id="BP44_BP28" implementation="##WebService" isForCompensation="false" name="TRAINING, TEST AND VALIDATION SET" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+            <vp:bounds height="40" width="170" x="470" y="340"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="doW1Hb6GAqACeAW2"/>
+                  <vp:ModelType Value="BPTask"/>
+                  <vp:ParentRef Idref="BP44"/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639480926574"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639664179213"/>
+                     <vp:StringProperty Name="userID" Value="BP28"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="97"/>
+                     <vp:StringProperty Name="qualityReason" Value="2&#9;2"/>
+                     <vp:ModelProperty Name="taskType">
+                        <vp:Model id="ID_32000415_3733_7203_7600_000000200043" name="Service">
+                           <vp:VpId Value="a2y9Hb6GAqACeAcY"/>
+                           <vp:ModelType Value="BPServiceTask"/>
+                           <vp:ModelProperties>
+                              <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                              <vp:StringProperty Name="pmCreateDateTime" Value="1639481947862"/>
+                              <vp:ModelProperty Name="implementation">
+                                 <vp:Model id="ID_72000415_3733_7203_7600_000000200044" name="Implementation">
+                                    <vp:VpId Value="m2y9Hb6GAqACeAcZ"/>
+                                    <vp:ModelType Value="BPImplWebService"/>
+                                    <vp:ModelProperties>
+                                       <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                                       <vp:StringProperty Name="pmCreateDateTime" Value="1639481947865"/>
+                                                                              												
+                                    
+                                    </vp:ModelProperties>
+                                                                        											
+                                 
+                                 </vp:Model>
+                                                                  										
+                              
+                              </vp:ModelProperty>
+                                                            									
+                           
+                           </vp:ModelProperties>
+                                                      								
+                        
+                        </vp:Model>
+                                                							
+                     
+                     </vp:ModelProperty>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+         <incoming>BP44_BP29</incoming>
+         <outgoing>BP44_BP41</outgoing>
+      </serviceTask>
+      <serviceTask completionQuantity="1" id="BP44_BP20" implementation="##WebService" isForCompensation="false" name="PERFORM DATASET PARTITION" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+            <vp:bounds height="50" width="140" x="800" y="330"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="zJtlHb6GAqACeAVy"/>
+                  <vp:ModelType Value="BPTask"/>
+                  <vp:ParentRef Idref="BP44"/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639480482099"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639664179216"/>
+                     <vp:StringProperty Name="userID" Value="BP20"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="97"/>
+                     <vp:StringProperty Name="qualityReason" Value="2&#9;2"/>
+                     <vp:ModelProperty Name="taskType">
+                        <vp:Model id="ID_56000415_3733_7203_7600_000000200045" name="Service">
+                           <vp:VpId Value="uai9Hb6GAqACeAcT"/>
+                           <vp:ModelType Value="BPServiceTask"/>
+                           <vp:ModelProperties>
+                              <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                              <vp:StringProperty Name="pmCreateDateTime" Value="1639481939357"/>
+                              <vp:ModelProperty Name="implementation">
+                                 <vp:Model id="ID_56000415_3733_7203_7600_000000200046" name="Implementation">
+                                    <vp:VpId Value="tai9Hb6GAqACeAcV"/>
+                                    <vp:ModelType Value="BPImplWebService"/>
+                                    <vp:ModelProperties>
+                                       <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                                       <vp:StringProperty Name="pmCreateDateTime" Value="1639481939373"/>
+                                                                              												
+                                    
+                                    </vp:ModelProperties>
+                                                                        											
+                                 
+                                 </vp:Model>
+                                                                  										
+                              
+                              </vp:ModelProperty>
+                                                            									
+                           
+                           </vp:ModelProperties>
+                                                      								
+                        
+                        </vp:Model>
+                                                							
+                     
+                     </vp:ModelProperty>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+         <incoming>sid-E0EDB7D8-B627-4FC3-91A6-06F35E7DDD56</incoming>
+         <outgoing>BP44_BP29</outgoing>
+      </serviceTask>
+      <userTask completionQuantity="1" id="BP44_BP16" implementation="##WebService" isForCompensation="false" name="DATA ANALYST : &#10;ANALYZE DATA BALANCING REPORT&#10;" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+            <vp:bounds height="50" width="180" x="670" y="180"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="dIeFHb6GAqACeAU."/>
+                  <vp:ModelType Value="BPTask"/>
+                  <vp:ParentRef Idref="BP44"/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639480156462"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639566165873"/>
+                     <vp:StringProperty Name="userID" Value="BP16"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="97"/>
+                     <vp:StringProperty Name="qualityReason" Value="2&#9;2"/>
+                     <vp:ModelProperty Name="taskType">
+                        <vp:Model id="ID_76000415_3733_7203_7600_000000200047" name="Service">
+                           <vp:VpId Value="Gyq9Hb6GAqACeAcc"/>
+                           <vp:ModelType Value="BPServiceTask"/>
+                           <vp:ModelProperties>
+                              <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                              <vp:StringProperty Name="pmCreateDateTime" Value="1639481955544"/>
+                              <vp:ModelProperty Name="implementation">
+                                 <vp:Model id="ID_01000415_3733_7203_7600_000000200050" name="Implementation">
+                                    <vp:VpId Value="2yq9Hb6GAqACeAcd"/>
+                                    <vp:ModelType Value="BPImplWebService"/>
+                                    <vp:ModelProperties>
+                                       <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                                       <vp:StringProperty Name="pmCreateDateTime" Value="1639481955547"/>
+                                                                              												
+                                    
+                                    </vp:ModelProperties>
+                                                                        											
+                                 
+                                 </vp:Model>
+                                                                  										
+                              
+                              </vp:ModelProperty>
+                                                            									
+                           
+                           </vp:ModelProperties>
+                                                      								
+                        
+                        </vp:Model>
+                                                							
+                     
+                     </vp:ModelProperty>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+         <incoming>sid-EBDFA49A-523C-47FD-BBB2-FCA8CE85D75D</incoming>
+         <outgoing>sid-E1EF7C16-15B5-4AAF-879F-D22A9B34A0F8</outgoing>
+      </userTask>
+      <serviceTask completionQuantity="1" id="BP44_BP14" implementation="##WebService" isForCompensation="false" name="COLLECT FEATURE VECTORS" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+            <vp:bounds height="50" width="100" x="520" y="180"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="aTYBHb6GAqACeATH"/>
+                  <vp:ModelType Value="BPTask"/>
+                  <vp:ParentRef Idref="BP44"/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639477963926"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639566165894"/>
+                     <vp:StringProperty Name="userID" Value="BP14"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="97"/>
+                     <vp:StringProperty Name="qualityReason" Value="2&#9;2"/>
+                     <vp:ModelProperty Name="taskType">
+                        <vp:Model id="ID_41000415_3733_7203_7600_000000200051" name="Service">
+                           <vp:VpId Value="m1a9Hb6GAqACeAcg"/>
+                           <vp:ModelType Value="BPServiceTask"/>
+                           <vp:ModelProperties>
+                              <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                              <vp:StringProperty Name="pmCreateDateTime" Value="1639481961177"/>
+                              <vp:ModelProperty Name="implementation">
+                                 <vp:Model id="ID_21000415_3733_7203_7600_000000200052" name="Implementation">
+                                    <vp:VpId Value="W1a9Hb6GAqACeAch"/>
+                                    <vp:ModelType Value="BPImplWebService"/>
+                                    <vp:ModelProperties>
+                                       <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                                       <vp:StringProperty Name="pmCreateDateTime" Value="1639481961178"/>
+                                                                              												
+                                    
+                                    </vp:ModelProperties>
+                                                                        											
+                                 
+                                 </vp:Model>
+                                                                  										
+                              
+                              </vp:ModelProperty>
+                                                            									
+                           
+                           </vp:ModelProperties>
+                                                      								
+                        
+                        </vp:Model>
+                                                							
+                     
+                     </vp:ModelProperty>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+         <incoming>BP44_BP15</incoming>
+         <outgoing>sid-6FF95C0F-DA4C-4331-9152-CA4D6DB029DA</outgoing>
+         <ioSpecification id="sid-06db4d83-6f21-4287-9cb0-c85eb5383b00">
+            <dataInput id="BP44_BP47-target" isCollection="false"/>
+            <inputSet id="sid-dc07f2c5-5341-4d35-b3cb-30ff8acc51ca">
+               <dataInputRefs>BP44_BP47-target</dataInputRefs>
+               <outputSetRefs>sid-447d3612-97da-44f9-91fc-250fe1e3f04a</outputSetRefs>
+            </inputSet>
+            <outputSet id="sid-447d3612-97da-44f9-91fc-250fe1e3f04a" name="DefaultOutputSet">
+               <inputSetRefs>sid-dc07f2c5-5341-4d35-b3cb-30ff8acc51ca</inputSetRefs>
+            </outputSet>
+         </ioSpecification>
+         <dataInputAssociation id="BP44_BP47">
+            <extensionElements>
+               <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+               <vp:Extensions>
+                  <vp:ModelExtension>
+                     <vp:VpId Value="Iojtvb6GAqAC0Au8"/>
+                     <vp:ModelType Value="BPDataAssociation"/>
+                     <vp:ParentRef/>
+                     <vp:ModelProperties>
+                        <vp:StringProperty Name="pmCreateDateTime" Value="1639565431108"/>
+                        <vp:StringProperty Name="pmLastModified" Value="1639566165886"/>
+                        <vp:StringProperty Name="userID" Value="BP47"/>
+                        <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                        <vp:IntegerProperty Name="qualityScore" Value="100"/>
+                                             							
+                  
+                     </vp:ModelProperties>
+                                       						
+               
+                  </vp:ModelExtension>
+                                 					
+            
+               </vp:Extensions>
+            </extensionElements>
+            <sourceRef>BP44_BP46-reference</sourceRef>
+            <targetRef>BP44_BP14</targetRef>
+         </dataInputAssociation>
+      </serviceTask>
+      <userTask completionQuantity="1" id="BP44_BP09" implementation="##unspecified" isForCompensation="false" name="DATA ANALYST : EVALUATE THE DATA " startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FFFFCC"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+            <vp:bounds height="60" width="130" x="200" y="170"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="20W5zb6GAqASeAP9"/>
+                  <vp:ModelType Value="BPTask"/>
+                  <vp:ParentRef Idref="BP44"/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639395992283"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639566165901"/>
+                     <vp:StringProperty Name="userID" Value="BP09"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="97"/>
+                     <vp:StringProperty Name="qualityReason" Value="2&#9;2"/>
+                     <vp:ModelProperty Name="taskType">
+                        <vp:Model id="ID_61000415_3733_7203_7600_000000200053" name="User">
+                           <vp:VpId Value="3Yk9Hb6GAqACeAcF"/>
+                           <vp:ModelType Value="BPUserTask"/>
+                           <vp:ModelProperties>
+                              <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                              <vp:StringProperty Name="pmCreateDateTime" Value="1639481905595"/>
+                              <vp:ModelProperty Name="implementation">
+                                 <vp:Model id="ID_11000415_3733_7203_7600_000000200054" name="Implementation">
+                                    <vp:VpId Value="44k9Hb6GAqACeAcH"/>
+                                    <vp:ModelType Value="BPImplOther"/>
+                                    <vp:ModelProperties>
+                                       <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                                       <vp:StringProperty Name="pmCreateDateTime" Value="1639481905607"/>
+                                                                              												
+                                    
+                                    </vp:ModelProperties>
+                                                                        											
+                                 
+                                 </vp:Model>
+                                                                  										
+                              
+                              </vp:ModelProperty>
+                                                            									
+                           
+                           </vp:ModelProperties>
+                                                      								
+                        
+                        </vp:Model>
+                                                							
+                     
+                     </vp:ModelProperty>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+         <incoming>sid-C61CC295-1CE6-4964-BBB0-AC755BFCA06F</incoming>
+         <outgoing>BP44_BP12</outgoing>
+      </userTask>
+      <exclusiveGateway gatewayDirection="Diverging" id="BP44_BP11" name="IS DATA VALID ?">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FF6600"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioLabel align="center" ref="text_name" x="20.0" y="45.0"/>
+            <vp:bounds height="40" width="40" x="420" y="180"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="QhB5zb6GAqASeAQN"/>
+                  <vp:ModelType Value="BPGateway"/>
+                  <vp:ParentRef Idref="BP44"/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639396018242"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639566165871"/>
+                     <vp:StringProperty Name="userID" Value="BP11"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="97"/>
+                     <vp:StringProperty Name="qualityReason" Value="2&#9;2"/>
+                     <vp:ModelProperty Name="gatewayType">
+                        <vp:Model id="ID_51000415_3733_7203_7600_000000200055" name="XOR">
+                           <vp:VpId Value="VhB5zb6GAqASeAQR"/>
+                           <vp:ModelType Value="BPGatewayDataBasedXOR"/>
+                           <vp:ModelProperties>
+                              <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                              <vp:StringProperty Name="pmCreateDateTime" Value="1639396018282"/>
+                                                            									
+                           
+                           </vp:ModelProperties>
+                                                      								
+                        
+                        </vp:Model>
+                                                							
+                     
+                     </vp:ModelProperty>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+         <incoming>BP44_BP12</incoming>
+         <outgoing>BP44_BP15</outgoing>
+         <outgoing>BP44_BP13</outgoing>
+      </exclusiveGateway>
+      <userTask completionQuantity="1" id="BP44_BP18" implementation="##unspecified" isForCompensation="false" name="DATA ANALYST : CHECK DATA QUALITY ON RADAR DIAGRAM" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+            <vp:bounds height="60" width="140" x="910" y="170"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="4HklHb6GAqACeAVc"/>
+                  <vp:ModelType Value="BPTask"/>
+                  <vp:ParentRef Idref="BP44"/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639480335879"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639566165869"/>
+                     <vp:StringProperty Name="userID" Value="BP18"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="97"/>
+                     <vp:StringProperty Name="qualityReason" Value="2&#9;2"/>
+                     <vp:ModelProperty Name="taskType">
+                        <vp:Model id="ID_45000415_3733_7203_7600_000000200056" name="User">
+                           <vp:VpId Value="ZCC9Hb6GAqACeAcO"/>
+                           <vp:ModelType Value="BPUserTask"/>
+                           <vp:ModelProperties>
+                              <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                              <vp:StringProperty Name="pmCreateDateTime" Value="1639481934886"/>
+                              <vp:ModelProperty Name="implementation">
+                                 <vp:Model id="ID_25000415_3733_7203_7600_000000200057" name="Implementation">
+                                    <vp:VpId Value="lCC9Hb6GAqACeAcP"/>
+                                    <vp:ModelType Value="BPImplOther"/>
+                                    <vp:ModelProperties>
+                                       <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                                       <vp:StringProperty Name="pmCreateDateTime" Value="1639481934889"/>
+                                                                              												
+                                    
+                                    </vp:ModelProperties>
+                                                                        											
+                                 
+                                 </vp:Model>
+                                                                  										
+                              
+                              </vp:ModelProperty>
+                                                            									
+                           
+                           </vp:ModelProperties>
+                                                      								
+                        
+                        </vp:Model>
+                                                							
+                     
+                     </vp:ModelProperty>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+         <incoming>sid-D28BE2FC-C221-4DB1-A96D-499208CB959E</incoming>
+         <outgoing>BP44_BP21</outgoing>
+      </userTask>
+      <sendTask completionQuantity="1" id="sid-E84B8115-FA78-4F27-AC73-4F837DF99C9A" implementation="##WebService" isForCompensation="false" name="SEND TRAINING, TEST AND VALIDATION SET" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+         </extensionElements>
+         <incoming>BP44_BP41</incoming>
+         <outgoing>sid-376909EE-DDBA-4F5C-B14B-5782C2EC67EA</outgoing>
+      </sendTask>
+      <endEvent id="sid-92C4410E-9BF0-40C4-8065-849295AE0B98" name="LEARNING SESSION SET &#10;CREATED&#10;">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FF0000"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="nachfolgerprozesse" metaValue="[]"/>
+         </extensionElements>
+         <incoming>sid-376909EE-DDBA-4F5C-B14B-5782C2EC67EA</incoming>
+         <messageEventDefinition id="sid-eb3fdd3a-6d14-4067-8838-9eb1d3040aa8"/>
+      </endEvent>
+      <startEvent id="BP44_BP01" isInterrupting="true" name="SCANNING &#10;SESSION&#10;COMPLETED">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#00FF00"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="vorgngerprozesse" metaValue="[]"/>
+            <signavio:signavioLabel ref="text_name" valign="middle" x="13.0" y="55.0"/>
+         </extensionElements>
+         <outgoing>BP44_BP10</outgoing>
+         <messageEventDefinition id="sid-b6995ddf-9ae6-467e-adbf-64b62a47fea4"/>
+      </startEvent>
+      <task completionQuantity="1" id="sid-18A102C0-831C-47CE-BBD9-328995F0D1E4" isForCompensation="false" name="COLLECT SAMPLES OF DATA" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+         </extensionElements>
+         <incoming>BP44_BP10</incoming>
+         <outgoing>sid-EA87E41D-5D8D-415C-A010-77B8EEC669B1</outgoing>
+      </task>
+      <exclusiveGateway gatewayDirection="Diverging" id="sid-AEA77758-BAAE-4B92-AD97-436C6CA642E3" name="IS THERE &#10;ENOUGH DATA ?">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FF6600"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioLabel align="center" bottom="false" left="false" ref="text_name" right="false" top="true" valign="bottom" x="20.0" y="-9.0"/>
+         </extensionElements>
+         <incoming>sid-EA87E41D-5D8D-415C-A010-77B8EEC669B1</incoming>
+         <outgoing>sid-49D77479-90D3-4680-8478-F41EBFB91A69</outgoing>
+         <outgoing>sid-A933ADA3-EE19-4851-B757-0502A8C4547E</outgoing>
+      </exclusiveGateway>
+      <parallelGateway gatewayDirection="Diverging" id="sid-C9784870-E1A6-4A81-9BC1-51AECB1E8FB2" name="IS THE DATA &#10;BALANCED ? &#10;">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FF6600"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioLabel align="center" bottom="false" left="false" ref="text_name" right="false" top="true" valign="bottom" x="20.0" y="-9.0"/>
+         </extensionElements>
+         <incoming>sid-E1EF7C16-15B5-4AAF-879F-D22A9B34A0F8</incoming>
+         <outgoing>sid-D28BE2FC-C221-4DB1-A96D-499208CB959E</outgoing>
+         <outgoing>sid-A03E67E9-CDDB-4952-94CA-C14C42C8E236</outgoing>
+      </parallelGateway>
+      <exclusiveGateway gatewayDirection="Diverging" id="sid-0A390F83-ECAD-466C-B968-D3B6609A02AD" name="IS RADAR DIAGRAM CORRECT ?">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FF6600"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioLabel align="center" bottom="false" left="false" ref="text_name" right="false" top="true" valign="bottom" x="20.0" y="-9.0"/>
+         </extensionElements>
+         <incoming>BP44_BP21</incoming>
+         <outgoing>sid-E0EDB7D8-B627-4FC3-91A6-06F35E7DDD56</outgoing>
+         <outgoing>sid-FAED7BAB-BFE9-42B8-8112-8F8F8531BA9C</outgoing>
+      </exclusiveGateway>
+      <serviceTask completionQuantity="1" id="sid-E4243CE8-8974-46D3-9F80-E779BBFE9518" implementation="##WebService" isForCompensation="false" name="GENERATE DATA BALANCING REPORT" startQuantity="1">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-risks" metaValue=""/>
+            <signavio:signavioMetaData metaKey="wirdkonsultiert" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="wirdinformiert" metaValue="[]"/>
+         </extensionElements>
+         <incoming>sid-6FF95C0F-DA4C-4331-9152-CA4D6DB029DA</incoming>
+         <outgoing>sid-EBDFA49A-523C-47FD-BBB2-FCA8CE85D75D</outgoing>
+      </serviceTask>
+      <exclusiveGateway gatewayDirection="Converging" id="sid-C90FC7CD-AC65-496C-B955-437589576264" name="">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FF6600"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+         <incoming>sid-49D77479-90D3-4680-8478-F41EBFB91A69</incoming>
+         <incoming>BP44_BP13</incoming>
+         <outgoing>sid-C61CC295-1CE6-4964-BBB0-AC755BFCA06F</outgoing>
+      </exclusiveGateway>
+      <endEvent id="sid-B87960FA-DF97-485A-B73F-F28D7B36B1B0" name="RE-CONFIGURATION OF THE SYSTEMS&#10;">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FF0000"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="nachfolgerprozesse" metaValue="[]"/>
+         </extensionElements>
+         <incoming>sid-A933ADA3-EE19-4851-B757-0502A8C4547E</incoming>
+         <messageEventDefinition id="sid-d3092763-0a2f-47d9-8151-b4d677299a94"/>
+      </endEvent>
+      <endEvent id="sid-93CD68FD-EFAF-498E-BC10-0D9383976B25" name="RE-CONFIGURATION OF THE SYSTEMS&#10;">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FF0000"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="nachfolgerprozesse" metaValue="[]"/>
+         </extensionElements>
+         <incoming>sid-FAED7BAB-BFE9-42B8-8112-8F8F8531BA9C</incoming>
+      </endEvent>
+      <endEvent id="sid-7662B1AF-55A8-4437-A61C-14CBDC728135" name="RE-CONFIGURATION OF THE SYSTEMS&#10;">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FF0000"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioMetaData metaKey="nachfolgerprozesse" metaValue="[]"/>
+         </extensionElements>
+         <incoming>sid-A03E67E9-CDDB-4952-94CA-C14C42C8E236</incoming>
+      </endEvent>
+      <sequenceFlow id="BP44_BP21" isImmediate="true" name="" sourceRef="BP44_BP18" targetRef="sid-0A390F83-ECAD-466C-B968-D3B6609A02AD">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="AZtlHb6GAqACeAV3"/>
+                  <vp:ModelType Value="BPSequenceFlow"/>
+                  <vp:ParentRef/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639480482176"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639566165869"/>
+                     <vp:StringProperty Name="userID" Value="BP21"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="100"/>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="BP44_BP41" isImmediate="true" name="" sourceRef="BP44_BP28" targetRef="sid-E84B8115-FA78-4F27-AC73-4F837DF99C9A">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="D1JNHb6GAqACeAZN"/>
+                  <vp:ModelType Value="BPSequenceFlow"/>
+                  <vp:ParentRef/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639481232112"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639566141740"/>
+                     <vp:StringProperty Name="userID" Value="BP41"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="100"/>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="BP44_BP10" isImmediate="true" name="" sourceRef="BP44_BP01" targetRef="sid-18A102C0-831C-47CE-BBD9-328995F0D1E4">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="UMW5zb6GAqASeAQA"/>
+                  <vp:ModelType Value="BPSequenceFlow"/>
+                  <vp:ParentRef/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639395992330"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639566165878"/>
+                     <vp:StringProperty Name="userID" Value="BP10"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="100"/>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-376909EE-DDBA-4F5C-B14B-5782C2EC67EA" name="" sourceRef="sid-E84B8115-FA78-4F27-AC73-4F837DF99C9A" targetRef="sid-92C4410E-9BF0-40C4-8065-849295AE0B98">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="BP44_BP29" isImmediate="true" name="" sourceRef="BP44_BP20" targetRef="BP44_BP28">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="PYW1Hb6GAqACeAW7"/>
+                  <vp:ModelType Value="BPSequenceFlow"/>
+                  <vp:ParentRef/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639480926652"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639566141744"/>
+                     <vp:StringProperty Name="userID" Value="BP29"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="100"/>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="BP44_BP15" isImmediate="true" name="YES" sourceRef="BP44_BP11" targetRef="BP44_BP14">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="DLYBHb6GAqACeATM"/>
+                  <vp:ModelType Value="BPSequenceFlow"/>
+                  <vp:ParentRef/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639477964080"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639566165871"/>
+                     <vp:StringProperty Name="userID" Value="BP15"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="97"/>
+                     <vp:StringProperty Name="qualityReason" Value="2&#9;2"/>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-EA87E41D-5D8D-415C-A010-77B8EEC669B1" name="" sourceRef="sid-18A102C0-831C-47CE-BBD9-328995F0D1E4" targetRef="sid-AEA77758-BAAE-4B92-AD97-436C6CA642E3">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-49D77479-90D3-4680-8478-F41EBFB91A69" name="YES&#10;" sourceRef="sid-AEA77758-BAAE-4B92-AD97-436C6CA642E3" targetRef="sid-C90FC7CD-AC65-496C-B955-437589576264">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-A933ADA3-EE19-4851-B757-0502A8C4547E" name="NO" sourceRef="sid-AEA77758-BAAE-4B92-AD97-436C6CA642E3" targetRef="sid-B87960FA-DF97-485A-B73F-F28D7B36B1B0">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-D28BE2FC-C221-4DB1-A96D-499208CB959E" name="YES" sourceRef="sid-C9784870-E1A6-4A81-9BC1-51AECB1E8FB2" targetRef="BP44_BP18">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-A03E67E9-CDDB-4952-94CA-C14C42C8E236" name="NO" sourceRef="sid-C9784870-E1A6-4A81-9BC1-51AECB1E8FB2" targetRef="sid-7662B1AF-55A8-4437-A61C-14CBDC728135">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-E0EDB7D8-B627-4FC3-91A6-06F35E7DDD56" name="YES" sourceRef="sid-0A390F83-ECAD-466C-B968-D3B6609A02AD" targetRef="BP44_BP20">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-FAED7BAB-BFE9-42B8-8112-8F8F8531BA9C" name="NO&#10;" sourceRef="sid-0A390F83-ECAD-466C-B968-D3B6609A02AD" targetRef="sid-93CD68FD-EFAF-498E-BC10-0D9383976B25">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-E1EF7C16-15B5-4AAF-879F-D22A9B34A0F8" isImmediate="true" name="" sourceRef="BP44_BP16" targetRef="sid-C9784870-E1A6-4A81-9BC1-51AECB1E8FB2">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-6FF95C0F-DA4C-4331-9152-CA4D6DB029DA" name="" sourceRef="BP44_BP14" targetRef="sid-E4243CE8-8974-46D3-9F80-E779BBFE9518">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-EBDFA49A-523C-47FD-BBB2-FCA8CE85D75D" name="" sourceRef="sid-E4243CE8-8974-46D3-9F80-E779BBFE9518" targetRef="BP44_BP16">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="sid-C61CC295-1CE6-4964-BBB0-AC755BFCA06F" name="" sourceRef="sid-C90FC7CD-AC65-496C-B955-437589576264" targetRef="BP44_BP09">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="BP44_BP13" isImmediate="true" name="NO" sourceRef="BP44_BP11" targetRef="sid-C90FC7CD-AC65-496C-B955-437589576264">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="y_3.Hb6GAqACeASp"/>
+                  <vp:ModelType Value="BPSequenceFlow"/>
+                  <vp:ParentRef/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639477919699"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639566165871"/>
+                     <vp:StringProperty Name="userID" Value="BP13"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="97"/>
+                     <vp:StringProperty Name="qualityReason" Value="2&#9;2"/>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+      </sequenceFlow>
+      <sequenceFlow id="BP44_BP12" isImmediate="true" name="" sourceRef="BP44_BP09" targetRef="BP44_BP11">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <vp:Extensions>
+               <vp:ModelExtension>
+                  <vp:VpId Value="PhB5zb6GAqASeAQV"/>
+                  <vp:ModelType Value="BPSequenceFlow"/>
+                  <vp:ParentRef/>
+                  <vp:ModelProperties>
+                     <vp:StringProperty Name="pmAuthor" Value="giamy"/>
+                     <vp:StringProperty Name="pmCreateDateTime" Value="1639396018300"/>
+                     <vp:StringProperty Name="pmLastModified" Value="1639566165887"/>
+                     <vp:StringProperty Name="userID" Value="BP12"/>
+                     <vp:StringProperty Name="userIDParent" Value="zG2Dvb6GAqAC0Ax0"/>
+                     <vp:IntegerProperty Name="qualityScore" Value="100"/>
+                                          						
+                  
+                  </vp:ModelProperties>
+                                    					
+               
+               </vp:ModelExtension>
+                              				
+            
+            </vp:Extensions>
+         </extensionElements>
+      </sequenceFlow>
+      <dataStoreReference dataStoreRef="sid-ffd4008d-8357-46d3-9ac1-d6ba63a79ca8" id="BP44_BP46-reference" name="EXPERT'S LABEL STORE">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioLabel bottom="false" left="false" ref="text_name" right="false" top="true" valign="bottom" x="32.0" y="-9.0"/>
+         </extensionElements>
+      </dataStoreReference>
+      <dataStoreReference dataStoreRef="sid-49950ded-6756-4237-aed8-71108adea536" id="sid-95A21021-C8BF-459B-B0E4-18DA51DC3115" name="DATA STORAGE">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </dataStoreReference>
+      <dataStoreReference dataStoreRef="sid-d28c180e-302d-4113-a23a-6a38bde0d067" id="sid-196106AB-E4A2-416E-ADCF-9A5466D4A6E0" name="TRAINING/TEST/ &#10; VALIDATION SET STORE">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+            <signavio:signavioLabel ref="text_name" valign="middle" x="44.0" y="81.0"/>
+         </extensionElements>
+      </dataStoreReference>
+      <association associationDirection="One" id="sid-186A81C1-5A2A-4053-AA83-594F0AE6355D" sourceRef="sid-95A21021-C8BF-459B-B0E4-18DA51DC3115">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </association>
+      <association associationDirection="One" id="sid-3854366F-B982-4193-BEA4-D2FB744F784B" targetRef="sid-196106AB-E4A2-416E-ADCF-9A5466D4A6E0">
+         <extensionElements>
+            <signavio:signavioMetaData metaKey="bordercolor" metaValue="#000000"/>
+         </extensionElements>
+      </association>
+   </process>
+   <bpmndi:BPMNDiagram id="sid-e623fdfb-6269-4ef0-bace-fa976d5cd617" name="Business Process Diagram1">
+      <bpmndi:BPMNPlane bpmnElement="sid-0d74da34-eabe-4054-9a33-927d3aceebd0" id="sid-5b954bc3-0582-4714-b6b1-022a38853825">
+         <bpmndi:BPMNShape bpmnElement="BP44" id="BP44_gui" isHorizontal="true">
+            <omgdc:Bounds height="600.0" width="1265.0" x="30.0" y="0.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="168.1714324951172" width="12.000000000000028" x="34.999999999999986" y="215.9142837524414"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-494fae84-4a9e-48d2-8928-0f3ca08c0e2b" id="sid-494fae84-4a9e-48d2-8928-0f3ca08c0e2b_gui" isHorizontal="true">
+            <omgdc:Bounds height="600.0" width="1235.0" x="60.0" y="0.0"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="BP44_BP28" id="BP44_BP28_gui">
+            <omgdc:Bounds height="40.0" width="170.0" x="150.0" y="340.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="24.0" width="118.028564453125" x="175.9857177734375" y="346.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="BP44_BP20" id="BP44_BP20_gui">
+            <omgdc:Bounds height="50.0" width="140.0" x="370.0" y="335.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="24.0" width="108.0" x="386.0" y="346.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="BP44_BP16" id="BP44_BP16_gui">
+            <omgdc:Bounds height="50.0" width="180.0" x="1096.0003968154933" y="245.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="36.0" width="154.2857208251953" x="1108.8575364028957" y="250.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="BP44_BP14" id="BP44_BP14_gui">
+            <omgdc:Bounds height="50.0" width="100.0" x="837.0003968154933" y="180.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="36.0" width="53.22857666015625" x="860.3861084854152" y="185.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="BP44_BP09" id="BP44_BP09_gui">
+            <omgdc:Bounds height="60.0" width="130.0" x="553.0003968154933" y="169.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="24.0" width="118.028564453125" x="558.9861145889308" y="185.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="BP44_BP11" id="BP44_BP11_gui" isMarkerVisible="true">
+            <omgdc:Bounds height="40.0" width="40.0" x="751.0003968154933" y="179.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="12.0" width="94.11428833007812" x="723.9432526504543" y="224.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="BP44_BP18" id="BP44_BP18_gui">
+            <omgdc:Bounds height="60.0" width="140.0" x="856.0003968154933" y="330.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="36.0" width="124.19999694824219" x="863.9003983413722" y="340.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-E84B8115-FA78-4F27-AC73-4F837DF99C9A" id="sid-E84B8115-FA78-4F27-AC73-4F837DF99C9A_gui">
+            <omgdc:Bounds height="60.0" width="140.0" x="165.0" y="485.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="24.0" width="124.971435546875" x="172.5142822265625" y="501.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-92C4410E-9BF0-40C4-8065-849295AE0B98" id="sid-92C4410E-9BF0-40C4-8065-849295AE0B98_gui">
+            <omgdc:Bounds height="28.0" width="28.0" x="488.0" y="501.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="22.0" width="124.4571533203125" x="439.77142333984375" y="531.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="BP44_BP01" id="BP44_BP01_gui">
+            <omgdc:Bounds height="30.0" width="30.0" x="110.0" y="184.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="33.0" width="60.81428527832031" x="92.59285736083984" y="221.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-18A102C0-831C-47CE-BBD9-328995F0D1E4" id="sid-18A102C0-831C-47CE-BBD9-328995F0D1E4_gui">
+            <omgdc:Bounds height="80.0" width="100.0" x="165.0" y="160.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="36.0" width="69.42857360839844" x="180.28571319580078" y="180.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-AEA77758-BAAE-4B92-AD97-436C6CA642E3" id="sid-AEA77758-BAAE-4B92-AD97-436C6CA642E3_gui" isMarkerVisible="true">
+            <omgdc:Bounds height="40.0" width="40.0" x="310.0" y="179.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="24.0" width="91.80000305175781" x="284.0999984741211" y="146.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-C9784870-E1A6-4A81-9BC1-51AECB1E8FB2" id="sid-C9784870-E1A6-4A81-9BC1-51AECB1E8FB2_gui">
+            <omgdc:Bounds height="40.0" width="40.0" x="1041.0003968154933" y="340.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="24.0" width="71.74285888671875" x="1025.128967372134" y="307.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-0A390F83-ECAD-466C-B968-D3B6609A02AD" id="sid-0A390F83-ECAD-466C-B968-D3B6609A02AD_gui" isMarkerVisible="true">
+            <omgdc:Bounds height="40.0" width="40.0" x="751.0003968154933" y="340.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="12.0" width="178.1999969482422" x="681.9003983413722" y="319.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-E4243CE8-8974-46D3-9F80-E779BBFE9518" id="sid-E4243CE8-8974-46D3-9F80-E779BBFE9518_gui">
+            <omgdc:Bounds height="80.0" width="100.0" x="982.0003968154933" y="165.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="48.0" width="64.80000305175781" x="999.6003952896144" y="179.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-C90FC7CD-AC65-496C-B955-437589576264" id="sid-C90FC7CD-AC65-496C-B955-437589576264_gui" isMarkerVisible="true">
+            <omgdc:Bounds height="40.0" width="40.0" x="468.0003968154933" y="179.25118420724252"/>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-B87960FA-DF97-485A-B73F-F28D7B36B1B0" id="sid-B87960FA-DF97-485A-B73F-F28D7B36B1B0_gui">
+            <omgdc:Bounds height="28.0" width="28.0" x="316.0" y="246.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="11.0" width="195.1714324951172" x="232.4142837524414" y="276.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-93CD68FD-EFAF-498E-BC10-0D9383976B25" id="sid-93CD68FD-EFAF-498E-BC10-0D9383976B25_gui">
+            <omgdc:Bounds height="28.0" width="27.999603184506668" x="757.00059522324" y="425.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="11.0" width="195.1714324951172" x="673.4148789756814" y="455.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-7662B1AF-55A8-4437-A61C-14CBDC728135" id="sid-7662B1AF-55A8-4437-A61C-14CBDC728135_gui">
+            <omgdc:Bounds height="28.0" width="27.999603184506668" x="1047.00059522324" y="425.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="11.0" width="195.1714324951172" x="963.4148789756814" y="455.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="BP44_BP46-reference" id="BP44_BP46-reference_gui">
+            <omgdc:Bounds height="61.173" width="63.000999999999976" x="855.0003968154933" y="63.827"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="12.0" width="133.45713806152344" x="820.2718277847316" y="42.827"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-95A21021-C8BF-459B-B0E4-18DA51DC3115" id="sid-95A21021-C8BF-459B-B0E4-18DA51DC3115_gui">
+            <omgdc:Bounds height="60.173" width="62.00099999999999" x="120.0" y="78.827"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="12.0" width="88.71429061889648" x="105.71785545349121" y="144.16499743652344"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNShape bpmnElement="sid-196106AB-E4A2-416E-ADCF-9A5466D4A6E0" id="sid-196106AB-E4A2-416E-ADCF-9A5466D4A6E0_gui">
+            <omgdc:Bounds height="60.173" width="62.001000000000005" x="94.0" y="379.827"/>
+            <bpmndi:BPMNLabel labelStyle="sid-be606874-bcda-4432-9585-4de4466b14f8">
+               <omgdc:Bounds height="24.0" width="135.77142333984375" x="70.11428833007812" y="446.827"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNShape>
+         <bpmndi:BPMNEdge bpmnElement="BP44_BP21" id="BP44_BP21_gui">
+            <omgdi:waypoint x="856.0003968154933" y="360.00584795321635"/>
+            <omgdi:waypoint x="791.0003968154933" y="360.3859649122807"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="BP44_BP41" id="BP44_BP41_gui">
+            <omgdi:waypoint x="235.0" y="380.0"/>
+            <omgdi:waypoint x="235.0" y="485.0"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="BP44_BP10" id="BP44_BP10_gui">
+            <omgdi:waypoint x="140.0" y="200.0"/>
+            <omgdi:waypoint x="165.0" y="200.0"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-376909EE-DDBA-4F5C-B14B-5782C2EC67EA" id="sid-376909EE-DDBA-4F5C-B14B-5782C2EC67EA_gui">
+            <omgdi:waypoint x="305.0" y="515.0"/>
+            <omgdi:waypoint x="488.0" y="515.0"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="BP44_BP29" id="BP44_BP29_gui">
+            <omgdi:waypoint x="370.0" y="360.0"/>
+            <omgdi:waypoint x="320.0" y="360.0"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="BP44_BP15" id="BP44_BP15_gui">
+            <omgdi:waypoint x="791.0003968154933" y="199.0"/>
+            <omgdi:waypoint x="837.0003968154933" y="199.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="12.0" width="21.5999755859375" x="798.5250244140625" y="179.0"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-186A81C1-5A2A-4053-AA83-594F0AE6355D" id="sid-186A81C1-5A2A-4053-AA83-594F0AE6355D_gui">
+            <omgdi:waypoint x="182.00099999999998" y="108.7515"/>
+            <omgdi:waypoint x="204.0" y="108.7515"/>
+            <omgdi:waypoint x="204.0" y="159.13193108377794"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-EA87E41D-5D8D-415C-A010-77B8EEC669B1" id="sid-EA87E41D-5D8D-415C-A010-77B8EEC669B1_gui">
+            <omgdi:waypoint x="265.0" y="199.78354978354977"/>
+            <omgdi:waypoint x="310.0" y="199.5887445887446"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-49D77479-90D3-4680-8478-F41EBFB91A69" id="sid-49D77479-90D3-4680-8478-F41EBFB91A69_gui">
+            <omgdi:waypoint x="350.0" y="199.53100050468194"/>
+            <omgdi:waypoint x="468.0003968154933" y="199.7185939330897"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="12.034326823298812" width="21.619057681233073" x="357.98170319473894" y="179.54375030261093"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-A933ADA3-EE19-4851-B757-0502A8C4547E" id="sid-A933ADA3-EE19-4851-B757-0502A8C4547E_gui">
+            <omgdi:waypoint x="330.3388429752066" y="219.0"/>
+            <omgdi:waypoint x="330.11570247933884" y="246.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="16.298629716834682" width="12.133470793373931" x="310.14089492354344" y="226.6824468016103"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-D28BE2FC-C221-4DB1-A96D-499208CB959E" id="sid-D28BE2FC-C221-4DB1-A96D-499208CB959E_gui">
+            <omgdi:waypoint x="1041.0003968154933" y="360.35460992907804"/>
+            <omgdi:waypoint x="996.0003968154933" y="360.0354609929078"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="12.152883921814976" width="21.684535649717873" x="1011.6025213218877" y="340.1465711139681"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-A03E67E9-CDDB-4952-94CA-C14C42C8E236" id="sid-A03E67E9-CDDB-4952-94CA-C14C42C8E236_gui">
+            <omgdi:waypoint x="1061.3762422798382" y="380.0"/>
+            <omgdi:waypoint x="1061.0897318129412" y="425.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="16.276027311941164" width="12.102902539992101" x="1041.2236955983412" y="387.75514869407044"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-E0EDB7D8-B627-4FC3-91A6-06F35E7DDD56" id="sid-E0EDB7D8-B627-4FC3-91A6-06F35E7DDD56_gui">
+            <omgdi:waypoint x="751.0003968154933" y="360.46095243997974"/>
+            <omgdi:waypoint x="510.0" y="360.00190475902536"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="12.041119526232308" width="21.62279270508236" x="721.4543171586412" y="340.4046552848958"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-FAED7BAB-BFE9-42B8-8112-8F8F8531BA9C" id="sid-FAED7BAB-BFE9-42B8-8112-8F8F8531BA9C_gui">
+            <omgdi:waypoint x="771.376242279838" y="380.0"/>
+            <omgdi:waypoint x="771.0897318129412" y="425.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="16.276088345860217" width="12.102902928605431" x="751.2236955983414" y="387.7550876601514"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-3854366F-B982-4193-BEA4-D2FB744F784B" id="sid-3854366F-B982-4193-BEA4-D2FB744F784B_gui">
+            <omgdi:waypoint x="185.0" y="380.13952274222703"/>
+            <omgdi:waypoint x="185.0" y="409.7515"/>
+            <omgdi:waypoint x="156.001" y="409.7515"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-E1EF7C16-15B5-4AAF-879F-D22A9B34A0F8" id="sid-E1EF7C16-15B5-4AAF-879F-D22A9B34A0F8_gui">
+            <omgdi:waypoint x="1231.0003968154933" y="295.0"/>
+            <omgdi:waypoint x="1231.0003968154933" y="360.0"/>
+            <omgdi:waypoint x="1081.0003968154933" y="360.0"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-6FF95C0F-DA4C-4331-9152-CA4D6DB029DA" id="sid-6FF95C0F-DA4C-4331-9152-CA4D6DB029DA_gui">
+            <omgdi:waypoint x="937.0003968154933" y="205.0"/>
+            <omgdi:waypoint x="982.0003968154933" y="205.0"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-EBDFA49A-523C-47FD-BBB2-FCA8CE85D75D" id="sid-EBDFA49A-523C-47FD-BBB2-FCA8CE85D75D_gui">
+            <omgdi:waypoint x="1082.0003968154933" y="205.0"/>
+            <omgdi:waypoint x="1231.0003968154933" y="205.0"/>
+            <omgdi:waypoint x="1231.0003968154933" y="245.0"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="BP44_BP47" id="BP44_BP47_gui">
+            <omgdi:waypoint x="886.0690420873437" y="125.0"/>
+            <omgdi:waypoint x="886.7093484629465" y="180.0"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-C61CC295-1CE6-4964-BBB0-AC755BFCA06F" id="sid-C61CC295-1CE6-4964-BBB0-AC755BFCA06F_gui">
+            <omgdi:waypoint x="508.0003968154933" y="199.63807152738747"/>
+            <omgdi:waypoint x="553.0003968154933" y="199.3770422661835"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="BP44_BP13" id="BP44_BP13_gui">
+            <omgdi:waypoint x="771.0003968154933" y="179.0"/>
+            <omgdi:waypoint x="771.0003968154933" y="110.0"/>
+            <omgdi:waypoint x="488.5003968154933" y="110.0"/>
+            <omgdi:waypoint x="488.5003968154933" y="179.25118420724252"/>
+            <bpmndi:BPMNLabel labelStyle="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+               <omgdc:Bounds height="16.20001220703125" width="12.0" x="751.0003968154933" y="155.30038460846208"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="BP44_BP12" id="BP44_BP12_gui">
+            <omgdi:waypoint x="683.0003968154933" y="200.0"/>
+            <omgdi:waypoint x="751.0003968154933" y="200.0"/>
+         </bpmndi:BPMNEdge>
+      </bpmndi:BPMNPlane>
+      <bpmndi:BPMNLabelStyle id="sid-bf00a57b-43b1-429e-974e-db44cbac5ae4">
+         <omgdc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="11.0"/>
+      </bpmndi:BPMNLabelStyle>
+      <bpmndi:BPMNLabelStyle id="sid-be606874-bcda-4432-9585-4de4466b14f8">
+         <omgdc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="12.0"/>
+      </bpmndi:BPMNLabelStyle>
+   </bpmndi:BPMNDiagram>
+</definitions>
